@@ -1,0 +1,177 @@
+@font-face {
+font-family: 'Oswald', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+margin: 0;
+}
+#InputBoxHolder {
+position: relative;
+top: 200px;
+background: #101211;
+color: #000D1A;
+height: 350px;
+width: 700px;
+margin: auto;
+margin-top: 50px;
+-webkit-border-radius: 40px;
+-moz-border-radius: 40px;
+border-radius: 40px;
+-webkit-box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.41);
+}
+#rootBox {
+}
+#SubRoot{
+margin: auto;
+clear:both;
+}
+#NavigatorHolder{
+overflow: hidden
+}
+#Navigator{
+position: fixed;
+display: grid;
+background: #101211;
+top: 0;
+width: 100%;
+margin;0px;
+padding: 0px;
+-webkit-box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.41);
+
+}
+#Logo{
+display: flex;
+}
+#holding{
+display: grid;
+}
+#Logo2{
+    margin: 10px auto 20px;
+    display: block;
+}
+#Box1Holder{
+    position: relative;
+    display: flex;
+    text-align:center
+}
+#PageTitle{
+color: white;
+font-weight: 400;
+font-family: "Oswald";
+}
+#Box1{
+    position: relative;
+   margin: auto;
+   height: 40px;
+   border-radius: 40px;
+   border: 0px;
+   outline: none;
+   background: #181c1a;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+   font-weight: 400;
+   font-family: "Oswald";
+   -webkit-appearance: none;
+   -moz-appearance: textfield;
+}
+#TicketButtonHolder{
+    position: relative;
+    display: flex;
+    text-align:center;
+    top: -19px;
+}
+#TicketGen{
+    position: relative;
+    text-align:center;
+
+}
+#TicketButton:hover{
+    background: rgba(15,85,6,1) ;
+    cursor: pointer;
+}
+#ConnectButton:hover{
+    background: rgba(15,85,6,1) ;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Grow{ 
+    transition: all .2s ease-in-out; 
+}
+    
+.Grow:hover { 
+    transform: scale(1.1); 
+}
+#ConnectButton{
+    margin: auto;
+    height: 40px;
+    border-radius: 40px;
+    border: 0px;
+    outline: none;
+    background: #181c1a;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Oswald";
+    width: 100px;
+    line-height: 1px;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.41);
+    overflow: hidden;
+
+}
+#ConnectButtonHolder{
+    width: 80%;
+}
+#TicketButton{
+   position: relative;
+   margin: auto;
+   height: 40px;
+   border-radius: 40px;
+   border: 0px;
+   outline: none;
+   background: #181c1a;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+   font-weight: 400;
+   font-family: "Oswald";
+   top: 15px;
+   width: 100px;
+   line-height: 1px;
+
+}
+#Price{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Oswald";
+    top: -80px;
+    width: 100px;
+    line-height: 1px;
+    left: 300px;
+}
+#background-radial-gradient{
+  background: rgb(0,36,3);
+  background: linear-gradient(172deg, rgba(0,36,3,1) 0%, rgba(15,85,6,1) 0%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  width: 200vw;
+  height: 200vh;
+  transform: translate(-50vw,-100vh);
+  z-index: -1;
+}
+
